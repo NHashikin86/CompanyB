@@ -9,7 +9,7 @@ public class CountUp extends Thread{
         public void run(){
     for(int x=1;x<10000000;x++){
         if (finished) break;
-        System.out.println("CountUp : ");
+        System.out.println("CountUp : " + x);
     }
 }
     
